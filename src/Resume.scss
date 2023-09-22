@@ -1,0 +1,140 @@
+.resume-page {
+  position: relative;
+
+  .dox-hide {
+    display: none;
+  }
+  // .web-dev-hide {
+    // display: none;
+  // }
+
+  .sidebar {
+    float: right;
+    width: 400px;
+    margin: 15px;
+    background-color: #A0E0FF;
+
+    .headshot-image-container {
+      text-align: center;
+
+      .headshot-image {
+        width: 200px;
+        padding-top: 20px;
+      }
+    }
+
+    .summary-section {
+      margin: 10px;
+
+      .summary-section-header {
+        font-weight: bolder;
+        font-size: larger;
+      }
+      .summary-text {
+        line-height: 120%;
+        margin-bottom: 5px;
+      }
+      .summary-text.education {
+        font-weight: 500;
+      }
+      .summary-skills-list {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        font-size: 0.8em;
+        border-left-width: 8px;
+        border-left-style: solid;
+        border-right-width: 8px;
+        border-right-style: solid;
+        border-top-width: 2px;
+        border-top-style: dotted;
+        border-bottom-width: 2px;
+        border-bottom-style: dotted;
+        border-color: red;
+      }
+    }
+    .school-illinois {
+      line-height: 80%;
+      color: #D13E19;
+      margin-bottom: 5px;
+    }
+    .school-ohiostate {
+      line-height: 80%;
+      color: #FF0000;
+    }
+  }
+
+  .left-header {
+    text-align: center;
+  }
+  .headline-name {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: -10px;
+  }
+  .headline-role {
+    font-weight: bolder;
+  }
+
+  .headline-contact {
+    font-size: small;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 20px;
+
+    .circle-separator {
+      margin-left: 15px;
+      margin-right: 15px;
+      color: red;
+    }
+    .contact-link {
+      white-space: nowrap;
+    }
+  }
+
+  .experience-header {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    
+    span.header-words {
+      padding-left: 20px;
+      padding-right: 20px;
+      border-top: 2px solid red;
+      border-bottom: 2px solid red;
+    }
+  }
+
+  .experience-list {
+    line-height: 120%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+
+    .experience-entry {
+      .experience-org {
+        font-size: larger;
+        font-weight: bold;
+        line-height: 1em;
+      }
+      .experience-location {
+        width: 200px;
+        display: inline-block;
+      }
+      .experience-dates {
+        display: inline;
+      }
+      ul.experience-accomplishments {
+        margin-left: -10px;
+        font-size: 0.8em;
+        line-height: 115%;
+        font-weight: 500;
+      }
+    }
+  }
+}
