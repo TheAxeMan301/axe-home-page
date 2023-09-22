@@ -33,7 +33,7 @@ function Home() {
           <a href="resume" class="justify-content-end mx-2">
             <strong>Resume</strong>
           </a>
-        <a href="https://www.linkedin.com/in/frank-amoroso-b737a314"
+        <a href="https://www.linkedin.com/in/frankpamoroso"
             class="justify-content-end mx-2"
         >
             <i class="fab fa-linkedin fa-2xl nav-icon"></i>
