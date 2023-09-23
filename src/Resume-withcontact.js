@@ -1,9 +1,6 @@
 import './Resume.scss';
 import headshot from './assets/headshot-circle-400x400.png';
-// import classicValley from './assets/classic-valley-crop.jpg';
-// import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 function Resume() {

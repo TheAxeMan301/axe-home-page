@@ -1,21 +1,37 @@
+/*
+Highlight color ideas
+-Keysight uses red and it also matches my school
+-Apple has an off-blue
+*/
+$keysight-highlight: #FF0000;
+$apple-highlight: #0066CC;
+$magenta-highlight: #FF00FF;
+
+$highlight-color: $apple-highlight;
+// $sidebar-background: #A0E0FF;
+$sidebar-background: #FFDC8D;
+
+$sidebar-text-size: 0.8em;
+$experience-list-text-size: 0.9em;
+
 .resume-page {
   position: relative;
-  max-width: 1300px;
+  max-width: 740px;
   margin-right: auto;
   margin-left: auto;
 
-  .dox-hide {
-    display: none;
-  }
+  // .dox-hide {
+    // display: none;
+  // }
   // .web-dev-hide {
     // display: none;
   // }
 
   .sidebar {
     float: right;
-    width: 400px;
+    width: 300px;
     margin: 15px;
-    background-color: #A0E0FF;
+    background-color: $sidebar-background;
 
     .headshot-image-container {
       text-align: center;
@@ -31,11 +47,12 @@
 
       .summary-section-header {
         font-weight: bolder;
-        font-size: larger;
+        // font-size: larger;
       }
       .summary-text {
-        line-height: 120%;
+        line-height: 130%;
         margin-bottom: 5px;
+        font-size: $sidebar-text-size;
       }
       .summary-text.education {
         font-weight: 500;
@@ -44,7 +61,8 @@
         padding-left: 15px;
         padding-right: 15px;
         text-align: center;
-        font-size: 0.8em;
+        line-height: 120%;
+        font-size: $sidebar-text-size;
         border-left-width: 8px;
         border-left-style: solid;
         border-right-width: 8px;
@@ -53,8 +71,11 @@
         border-top-style: dotted;
         border-bottom-width: 2px;
         border-bottom-style: dotted;
-        border-color: red;
+        border-color: $highlight-color;
       }
+    }
+    .summary-text.education {
+      font-size: $sidebar-text-size;
     }
     .school-illinois {
       line-height: 80%;
@@ -67,7 +88,7 @@
     }
   }
 
-  .left-header {
+  .header-no-sidebar {
     text-align: center;
   }
   .headline-name {
@@ -81,8 +102,8 @@
 
   .headline-contact {
     font-size: small;
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
+    border-top: 2px solid $highlight-color;
+    border-bottom: 2px solid $highlight-color;
     margin-top: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -91,13 +112,12 @@
     .circle-separator {
       margin-left: 15px;
       margin-right: 15px;
-      color: red;
+      color: $highlight-color;
     }
     .contact-link {
       white-space: nowrap;
     }
   }
-
   .experience-header {
     text-align: center;
     font-weight: 500;
@@ -108,8 +128,8 @@
     span.header-words {
       padding-left: 20px;
       padding-right: 20px;
-      border-top: 2px solid red;
-      border-bottom: 2px solid red;
+      border-top: 2px solid $highlight-color;
+      border-bottom: 2px solid $highlight-color;
     }
   }
 
@@ -134,7 +154,7 @@
       }
       ul.experience-accomplishments {
         margin-left: -10px;
-        font-size: 0.8em;
+        font-size: $experience-list-text-size;
         line-height: 115%;
         font-weight: 500;
       }

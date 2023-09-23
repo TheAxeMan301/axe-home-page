@@ -1,19 +1,57 @@
 import './Resume.scss';
-import headshot from './assets/headshot-circle-400x400.png';
-// import classicValley from './assets/classic-valley-crop.jpg';
-// import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 function Resume() {
   return (
     <div class="resume-page">
 
+      <div class="header-no-sidebar">
+        <div class="headline-name"> Frank Amoroso </div>
+        <div class="headline-role">Software Engineer</div>
+        <div class="headline-contact">
+          <a href="https://frankamoroso.com" class="contact-link">
+            <i class="fas fa-house fa-1xl"></i>
+            FrankAmoroso.com
+          </a>
+          <i class="fas fa-circle fa-xs circle-separator"></i>
+          <a href="https://www.linkedin.com/in/frankpamoroso" class="contact-link">
+            <i class="fab fa-linkedin fa-1xl"></i>
+            https://www.linkedin.com/in/FrankPAmoroso
+          </a>
+          <i class="fas fa-circle fa-xs circle-separator"></i>
+          <a href="https://github.com/TheAxeMan301" class="contact-link">
+            <i class="fab fa-github fa-1xl"></i>
+            https://github.com/TheAxeMan301
+          </a>
+
+          <i class="fas fa-circle fa-xs circle-separator dox-hide"></i>
+          <a href="tel:5038072506" class="contact-link dox-hide">
+            <i class="fas fa-phone fa-1xl"></i>
+            503-807-2506
+          </a>
+          <i class="fas fa-circle fa-xs circle-separator dox-hide"></i>
+          <a href="mailto:FrankPAmoroso@gmail.com" class="contact-link dox-hide">
+            <i class="fas fa-envelope fa-1xl"></i>
+            FrankPAmoroso@gmail.com
+          </a>
+        </div>
+      </div>
+
       <div class="sidebar">
-        <div class="headshot-div">
-          <div class="headshot-image-container">
-            <img src={headshot} className="headshot-image" alt="headshot" />
+
+        <div class="summary-section">
+          <div class="summary-text education">
+            M. S. Electrical Engineering
+            <div class="school-illinois">
+            University of Illinois at Urbana-Champaign
+            </div>
+          </div>
+          <div class="summary-text education">
+            B. S. Electrical and Computer Engineering
+            <div class="school-ohiostate">
+            The Ohio State University
+            </div>
           </div>
         </div>
 
@@ -64,46 +102,8 @@ function Resume() {
           </div>
         </div>
 
-        <div class="summary-section">
-          <div class="summary-section-header education">
-            Education
-          </div>
-          <div class="summary-text education">
-            M. S. Electrical Engineering
-            <div class="school-illinois">
-            University of Illinois at Urbana-Champaign
-            </div>
-          </div>
-          <div class="summary-text education">
-            B. S. Electrical and Computer Engineering
-            <div class="school-ohiostate">
-            The Ohio State University
-            </div>
-          </div>
-        </div>
-
       </div>
 
-      <div class="left-header">
-        <div class="headline-name"> Frank Amoroso </div>
-        <div class="headline-role">Software Engineer</div>
-        <div class="headline-contact">
-          <a href="https://frankamoroso.com" class="contact-link">
-            <i class="fas fa-house fa-1xl"></i>
-            FrankAmoroso.com
-          </a>
-          <i class="fas fa-circle fa-xs circle-separator"></i>
-          <a href="https://www.linkedin.com/in/frankpamoroso" class="contact-link">
-            <i class="fab fa-linkedin fa-1xl"></i>
-            https://www.linkedin.com/in/FrankPAmoroso
-          </a>
-          <i class="fas fa-circle fa-xs circle-separator"></i>
-          <a href="https://github.com/TheAxeMan301" class="contact-link">
-            <i class="fab fa-github fa-1xl"></i>
-            https://github.com/TheAxeMan301
-          </a>
-        </div>
-      </div>
 
       <div class="experience-header">
         <span class="header-words">Professional Experience</span>
@@ -165,9 +165,7 @@ function Resume() {
             Ciena Corporation - Blue Planet Division
           </div>
           <div class="experience-role">
-            Senior Engineer, Blue Planet Professional Services
-            <br />
-            Senior Engineer, Blue Planet Infrastructure
+            Senior Engineer
           </div>
           <div class="experience-location">
             Petaluma, CA
@@ -274,6 +272,12 @@ function Resume() {
           </div>
           <div class="experience-role">
             Intern Engineer
+          </div>
+          <div class="experience-location">
+            Multiple locations
+          </div>
+          <div class="experience-dates">
+            1999-2003
           </div>
         </div>
 
