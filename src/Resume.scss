@@ -11,7 +11,10 @@ $highlight-color: $apple-highlight;
 // $sidebar-background: #A0E0FF;
 $sidebar-background: #FFDC8D;
 
-$sidebar-text-size: 0.8em;
+$sidebar-text-height: 120%;
+$sidebar-text-size: 0.9em;
+
+$experience-list-text-height: 120%;
 $experience-list-text-size: 0.9em;
 
 .resume-page {
@@ -50,7 +53,7 @@ $experience-list-text-size: 0.9em;
         // font-size: larger;
       }
       .summary-text {
-        line-height: 130%;
+        line-height: $sidebar-text-height;
         margin-bottom: 5px;
         font-size: $sidebar-text-size;
       }
@@ -61,7 +64,7 @@ $experience-list-text-size: 0.9em;
         padding-left: 15px;
         padding-right: 15px;
         text-align: center;
-        line-height: 120%;
+        line-height: $sidebar-text-height;
         font-size: $sidebar-text-size;
         border-left-width: 8px;
         border-left-style: solid;
@@ -155,8 +158,8 @@ $experience-list-text-size: 0.9em;
       ul.experience-accomplishments {
         margin-left: -10px;
         font-size: $experience-list-text-size;
-        line-height: 115%;
-        font-weight: 500;
+        line-height: $experience-list-text-height;
+        // font-weight: 500;
       }
     }
   }

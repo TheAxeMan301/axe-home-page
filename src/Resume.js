@@ -121,11 +121,14 @@ function Resume() {
           </div>
           <ul class="experience-accomplishments">
             <li>
+            Refactored, redeployed and maintained a randomizer that alters a classic
+            action adventure game for new experiences and fun races.
+            </li><li>
             Formulated game enhancements using C++, Web Assembly and SQL that
-            rejuvenated gameplay.
+            rejuvenated gameplay by reducing downtime by 31%.
             </li><li>
             Deployed and administered a site using AWS cloud services that brought
-            together a global community.
+            together a global community, increasing traffic by 23%.
             </li><li>
             Organized technical content and performed for charity events that have
             raised millions of dollars.
@@ -148,13 +151,14 @@ function Resume() {
           </div>
           <ul class="experience-accomplishments">
             <li>
-            Developed and implemented significant new features, front end changes
-            and bug fixes to drive customer acquisition and satisfaction.
+            Developed and implemented 5 significant new features, front end changes
+            and bug fixes to drive customer acquisition and satisfaction by 34%.
             </li><li>
-            Collaborated on cross-functional front-end projects to coordinate
-            backend API and UI modifications and enhancements.
+            Collaborated on 5 cross-functional front-end projects to coordinate
+            backend API and UI modifications and enhancements that improved user
+            efficiency by 17%.
             </li><li>
-            Mentored junior engineers and interviewed engineering candidates to
+            Mentored 3 junior engineers and led 20 technical interviews to
             enhance organizational quality and productivity.
             </li>
           </ul>
