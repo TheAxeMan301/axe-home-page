@@ -24,17 +24,6 @@ function Resume() {
             <i class="fab fa-github fa-1xl"></i>
             https://github.com/TheAxeMan301
           </a>
-
-          <i class="fas fa-circle fa-xs circle-separator dox-hide"></i>
-          <a href="tel:5038072506" class="contact-link dox-hide">
-            <i class="fas fa-phone fa-1xl"></i>
-            503-807-2506
-          </a>
-          <i class="fas fa-circle fa-xs circle-separator dox-hide"></i>
-          <a href="mailto:FrankPAmoroso@gmail.com" class="contact-link dox-hide">
-            <i class="fas fa-envelope fa-1xl"></i>
-            FrankPAmoroso@gmail.com
-          </a>
         </div>
       </div>
 
