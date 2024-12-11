@@ -100,6 +100,28 @@ function Resume() {
       <div class="experience-list">
         <div class="experience-entry">
           <div class="experience-org">
+            Keysight
+          </div>
+          <div class="experience-location">
+            Santa Rosa, CA
+          </div>
+          <div class="experience-dates">
+            2023-2024
+          </div>
+          <ul class="experience-accomplishments">
+            <li>
+            Developed, tested and implemented fixes and new features for a complex EDA application
+            with a large and complex C++ codebase.
+            </li><li>
+            Created, tested and refined a Python API using PyBind.
+            </li><li>
+            Practiced Agile and AI-assisted software development methodologies.
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience-entry">
+          <div class="experience-org">
             Freelance Software Engineer
           </div>
           <div class="experience-location">
@@ -113,7 +135,7 @@ function Resume() {
             Refactored, redeployed and maintained a randomizer that alters a classic
             action adventure game for new experiences and fun races.
             </li><li>
-            Formulated game enhancements using C++, Web Assembly and SQL that
+            Formulated game enhancements using C++, Web Assembly, AI and SQL that
             rejuvenated gameplay by reducing downtime by 31%.
             </li><li>
             Deployed and administered a site using AWS cloud services that brought
@@ -141,7 +163,7 @@ function Resume() {
           <ul class="experience-accomplishments">
             <li>
             Developed and implemented 5 significant new features, front end changes
-            and bug fixes to drive customer acquisition and satisfaction by 34%.
+            and bug fixes to leverage AI and drive customer acquisition and satisfaction by 34%.
             </li><li>
             Collaborated on 5 cross-functional front-end projects to coordinate
             backend API and UI modifications and enhancements that improved user
@@ -168,7 +190,7 @@ function Resume() {
           </div>
           <ul class="experience-accomplishments">
             <li>
-            Developed customized web applications with Docker, nginx, Ember.js, Vue,
+            Developed customized web applications with AI, Docker, nginx, Ember.js, Vue,
             Node.js, Python and REST API that drove adoption of the Blue Planet framework.
             Delivered a web app microservice optimization that improved web app load
             times by 4x.
@@ -178,7 +200,7 @@ function Resume() {
             Collaborated directly with customer technical teams to ensure alignment,
             success and satisfaction.
             </li><li>
-            Authored a streamlined service creation wizard for Blue Planet NFVO using
+            Authored a streamlined AI-assisted service creation wizard for Blue Planet NFVO using
             Javascript and Ember.js that allowed complex network services to be created
             and customized 3x more efficiently.
             </li>
