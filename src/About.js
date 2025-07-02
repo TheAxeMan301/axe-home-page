@@ -19,7 +19,7 @@ function AboutPage() {
           </div>
           <div class="headshot-text-container">
             <div class="name-header">Frank Amoroso</div>
-            <div class="name-role-header">Software Engineer</div>
+            <div class="name-role-header">Full Stack Software Engineer</div>
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@ function AboutPage() {
           </div>
           <div class="col-sm-4">
             <ul>
-              <li>C++, Python, Javascript</li>
-              <li>Full Stack Web Programming, EDA, Network Management</li>
+              <li>Python, Javascript, C++</li>
+              <li>Full Stack Web Programming, Network Management</li>
               <li>M.S. Electrical and Computer Engineering</li>
             </ul>
           </div>
@@ -47,8 +47,8 @@ function AboutPage() {
           <div class="col-sm-4">
             <ul>
               <li>REST API, AWS, GCP, Docker, Linux</li>
-              <li>Node.js, Typescript, React, Vue</li>
-              <li>Docker, microservice architecture</li>
+              <li>React, Node.js, Typescript, Next.js</li>
+              <li>AI, Docker, microservice architecture</li>
             </ul>
           </div>
           <div class="col-sm-8">
@@ -56,7 +56,7 @@ function AboutPage() {
             <div>
               Experienced software developer with especially strong skills in Python, C++
               and Javascript. Demonstrated experience with numerous languages, frameworks
-              and technologies including Node.js, Typescript, SQL, React, AngularJS, Vue,
+              and technologies including React, Node.js, Typescript, SQL,
               REST APIs, Agile methodology, cloud deployment with AWS and GCP and AI guided
               development.
             </div>

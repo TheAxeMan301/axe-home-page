@@ -55,7 +55,7 @@ function Resume() {
             M.S. in Engineering from an elite US university.
           </div>
           <div class="summary-skills-list">
-            C++, Python, Javascript,
+            Python, React, Javascript, C++,
             Full Stack Web Programming, EDA, Network Management,
             M.S. Electrical and Computer Engineering
           </div>
@@ -66,14 +66,14 @@ function Resume() {
             Extensive Technical Skills
           </div>
           <div class="summary-text">
-            Experienced software developer with especially strong skills in Python, C++
-            and Javascript. Demonstrated experience with numerous languages, frameworks,
+            Experienced software developer with especially strong skills in Python, Javascript, React
+            and C++. Demonstrated experience with numerous languages, frameworks,
             technologies and AI guided development.
           </div>
           <div class="summary-skills-list">
               REST API, AWS, GCP, Docker, Linux,
-              Node.js, Typescript, React, Vue,
-              Docker, microservice architecture
+              React, Node.js, Typescript, Vue,
+              AI, Docker, microservice architecture
           </div>
         </div>
 
@@ -135,7 +135,7 @@ function Resume() {
             Refactored, redeployed and maintained a randomizer that alters a classic
             action adventure game for new experiences and fun races.
             </li><li>
-            Formulated game enhancements using C++, Web Assembly, AI and SQL that
+            Formulated game enhancements using Python, React, C++, Web Assembly, AI and SQL that
             rejuvenated gameplay by reducing downtime by 31%.
             </li><li>
             Deployed and administered a site using AWS cloud services that brought
@@ -152,7 +152,7 @@ function Resume() {
             UJET
           </div>
           <div class="experience-role">
-            Software Engineer
+            Full Stack Software Engineer
           </div>
           <div class="experience-location">
             Petaluma, CA
@@ -180,7 +180,7 @@ function Resume() {
             Ciena Corporation - Blue Planet Division
           </div>
           <div class="experience-role">
-            Senior Engineer
+            Senior Full Stack Engineer
           </div>
           <div class="experience-location">
             Petaluma, CA
@@ -190,8 +190,8 @@ function Resume() {
           </div>
           <ul class="experience-accomplishments">
             <li>
-            Developed customized web applications with AI, Docker, nginx, Ember.js, Vue,
-            Node.js, Python and REST API that drove adoption of the Blue Planet framework.
+            Developed customized web applications with Python, React, AI, Docker, nginx,
+            Node.js and REST API that drove adoption of the Blue Planet framework.
             Delivered a web app microservice optimization that improved web app load
             times by 4x.
             </li><li>
